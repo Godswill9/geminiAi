@@ -16,6 +16,7 @@ const io = socketIO(server, {
     origin: [
       "http://localhost:5172",
       "http://127.0.0.1:5500",
+       "https://gemini-asoro.netlify.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
@@ -31,6 +32,7 @@ app.use(
     origin: [
       "http://localhost:5172",
       "http://127.0.0.1:5500",
+      "https://gemini-asoro.netlify.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
