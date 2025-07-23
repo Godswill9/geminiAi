@@ -1,0 +1,7 @@
+
+POST http://localhost:8087/api/gemApiCall
+Content-Type: application/json
+
+{
+  "prompt": "yes, send their websie link"
+}
